@@ -76,7 +76,12 @@ layout: default
   <script>
     window.MathJax = {
       tex: {
-        packages: {'[+]': ['physics']}
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        packages: {'[+]': ['physics']} 
+      },
+      svg: {
+        fontCache: 'global'
       }
     };
   </script>
