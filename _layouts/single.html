@@ -75,10 +75,11 @@ layout: default
 {% if page.mathjax %}
   <script>
     window.MathJax = {
+      loader: {load: ['[tex]/physics']}, // <-- 이 줄이 핵심입니다!
       tex: {
+        packages: {'[+]': ['physics']},
         inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']],
-        packages: {'[+]': ['physics']} 
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
       },
       svg: {
         fontCache: 'global'
