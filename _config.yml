@@ -356,3 +356,8 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+collections: 
+  bass_ra:
+    output: true
+    permalink: /bass-ra/:path/
