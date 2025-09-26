@@ -10,11 +10,11 @@ This page serves as an index for my solutions to the exercises in *Real Analysis
 Click on a link to view the solution for that exercise.
 
 ## Chapter 1: Preliminaries
-* [Exercise 1.1 Solutions](/posts/bass-exercise-1-1/)
-* [Exercise 1.2 Solutions](/posts/bass-exercise-1-2/)
+* [Exercise 1.1 Solution](/bass-ra/exercise-1-1/)
+* [Exercise 1.2 Solution](/bass-ra/exercise-1-2/)
 * *...*
 ## Chapter 2: Families of sets
-* [Exercise 2.1 Solutions](/posts/bass-exercise-2-1/)
+* [Exercise 2.1 Solution](/bass-ra/exercise-2-1/)
 * *...*
 ## Chapter 3: Measures
 * *...*
