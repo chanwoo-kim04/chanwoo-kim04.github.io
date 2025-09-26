@@ -245,6 +245,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: ""
@@ -252,6 +253,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_date: false
+
+  # _bass_ra collection
+  - scope:
+      path: ""
+      type: bass-ra
+    values:
+      layout: single
+      author_profile: true
+      show_date: false
+      
   # _teaching
   - scope:
       path: ""
