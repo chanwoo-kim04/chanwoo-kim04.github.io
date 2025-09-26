@@ -12,8 +12,6 @@ mathjax: true
 
 **Solution:** We first show that...
 
----
-
 <p style="text-align: center;">
   <a href="/bass-solutions/" class="btn btn--info">
     <i class="fas fa-arrow-left"></i> Back to Index
