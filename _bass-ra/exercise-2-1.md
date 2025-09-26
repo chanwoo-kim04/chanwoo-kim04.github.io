@@ -1,5 +1,5 @@
 ---
-title: "Real Analysis (Bass) - Exercise 1.1 Solution"
+title: "Real Analysis (Bass) - Exercise 2.1 Solution"
 date: 2025-09-27
 layout: single
 author_profile: true
