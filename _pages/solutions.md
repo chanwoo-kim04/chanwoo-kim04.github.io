@@ -10,5 +10,5 @@ This page lists the textbook solution series I have written. Click on a book tit
 ---
 
 ## Mathematics
-* ### [Real analysis for graduate students Version 5.0 (Richard F. Bass)](/bass-solutions/)
-  *Blah Blah*
+* ### [Real analysis for graduate students Version 5.0](/bass-solutions/)
+  *by Richard F. Bass*
