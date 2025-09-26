@@ -16,6 +16,6 @@ mathjax: true
 
 <p style="text-align: center;">
   <a href="/bass-solutions/" class="btn btn--info">
-    <i class="fas fa-arrow-left"></i> Back to Solutions Index
+    <i class="fas fa-arrow-left"></i> Back to Index
   </a>
 </p>
