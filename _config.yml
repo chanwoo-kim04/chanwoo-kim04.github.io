@@ -263,6 +263,7 @@ defaults:
       layout: single
       author_profile: true
       show_date: false
+      mathjax: true
       
   # _teaching
   - scope:
