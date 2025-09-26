@@ -6,8 +6,6 @@ author_profile: true
 mathjax: true
 ---
 
-### Exercise 1.1
-
 **Problem:** Let $A$ be a set...
 
 **Solution:** We first show that...
