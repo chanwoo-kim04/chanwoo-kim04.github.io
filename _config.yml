@@ -358,6 +358,6 @@ compress_html:
     envs: development
 
 collections: 
-  bass_ra:
+  bass-ra:
     output: true
     permalink: /bass-ra/:path/
