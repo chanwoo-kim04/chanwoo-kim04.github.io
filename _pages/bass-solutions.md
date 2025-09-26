@@ -13,7 +13,6 @@ Click on a link to view the solution for that exercise.
 There are no exercises in this chapter.
 
 ## Chapter 2: Families of sets
-## Chapter 2: Families of sets
 <div class="grid__wrapper">
   <div class="grid__item"><a href="/bass-ra/exercise-2-1/">Exercise 2.1</a></div>
   <div class="grid__item"><a href="/bass-ra/exercise-2-2/">Exercise 2.2</a></div>
@@ -22,6 +21,8 @@ There are no exercises in this chapter.
   <div class="grid__item"><a href="/bass-ra/exercise-2-5/">Exercise 2.5</a></div>
   <div class="grid__item"><a href="/bass-ra/exercise-2-6/">Exercise 2.6</a></div>
 </div>
+
+<div style="clear: both;"></div>
 
 ## Chapter 3: Measures
 * *...*
