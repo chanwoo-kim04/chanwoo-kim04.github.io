@@ -8,7 +8,7 @@ mathjax: true
 
 <br>
 <div style="text-align: center; font-size: 1.1em;">
-  <strong><a href="/bass-real-analysis-solutions/">↩️ Real Analysis (Bass) Solutions Index</a></strong>
+  <strong><a href="/bass-solutions/">Back to solutions index</a></strong>
 </div>
 <br>
 
