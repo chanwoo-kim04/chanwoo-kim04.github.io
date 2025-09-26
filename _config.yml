@@ -257,8 +257,7 @@ defaults:
 
   # _bass_ra collection
   - scope:
-      path: ""
-      type: bass-ra
+      path: "_bass-ra"
     values:
       layout: single
       author_profile: true
