@@ -20,6 +20,9 @@ There are no exercises in this chapter.
   <div class="grid__item"><a href="/bass-ra/exercise-2-4/">Exercise 2.4</a></div>
   <div class="grid__item"><a href="/bass-ra/exercise-2-5/">Exercise 2.5</a></div>
   <div class="grid__item"><a href="/bass-ra/exercise-2-6/">Exercise 2.6</a></div>
+  <div class="grid__item"><a href="/bass-ra/exercise-2-7/">Exercise 2.7</a></div>
+  <div class="grid__item"><a href="/bass-ra/exercise-2-8/">Exercise 2.8</a></div>
+  <div class="grid__item"><a href="/bass-ra/exercise-2-9/">Exercise 2.9</a></div>
 </div>
 
 <div style="clear: both;"></div>
