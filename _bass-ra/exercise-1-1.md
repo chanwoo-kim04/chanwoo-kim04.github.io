@@ -14,6 +14,6 @@ mathjax: true
 
 <p style="text-align: center;">
   <a href="/bass-real-analysis-solutions/" class="btn btn--info" style="text-decoration: none;">
-    <i class="fas fa-arrow-left"></i> Back to Solutions Index
+    <i class="fas fa-arrow-left"></i> Back to Index
   </a>
 </p>
