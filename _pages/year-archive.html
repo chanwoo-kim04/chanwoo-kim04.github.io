@@ -1,7 +1,10 @@
 ---
-title: "Blog Posts by Year"
+title: "Blog"
 permalink: /year-archive/
-layout: archive
-collection: posts
+layout: single
 author_profile: true
 ---
+
+{% for post in site.posts %}
+  {% include archive-single.html type="list" %}
+{% endfor %}
