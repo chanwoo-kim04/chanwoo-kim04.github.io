@@ -230,6 +230,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  bass-ra:
+    output: true
+    permalink: /bass-ra/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -368,8 +371,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-collections: 
-  bass-ra:
-    output: true
-    permalink: /bass-ra/:path/
