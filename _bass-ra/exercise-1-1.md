@@ -6,16 +6,16 @@ author_profile: true
 mathjax: true
 ---
 
-<br>
-<div style="text-align: center; font-size: 1.1em;">
-  <strong><a href="/bass-solutions/">Back to solutions index</a></strong>
-</div>
-<br>
-
----
-
 ### Exercise 1.1
 
 **Problem:** Let $A$ be a set...
 
 **Solution:** We first show that...
+
+---
+
+<p style="text-align: center;">
+  <a href="/bass-solutions/" class="btn btn--info">
+    <i class="fas fa-arrow-left"></i> Back to Solutions Index
+  </a>
+</p>
