@@ -25,12 +25,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Chanwoo Kim"
-  pronouns         : "he/him"
+  pronouns         : "He/Him"
   bio              : "My Bio"
   location         : "South Korea"
-  employer         : "Yonsei University"
+  employer         : # ""
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "holonomic0401@gmail.com" 
 
   # Academic websites
   academia         : # URL
