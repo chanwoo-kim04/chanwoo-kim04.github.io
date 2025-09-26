@@ -11,7 +11,7 @@ mathjax: true
 **Solution:** We first show that...
 
 <p style="text-align: center;">
-  <a href="/bass-real-analysis-solutions/" class="btn btn--info" style="text-decoration: none;">
+  <a href="/bass-solutions/" class="btn btn--info" style="text-decoration: none;">
     <i class="fas fa-arrow-left"></i> Back to Index
   </a>
 </p>
