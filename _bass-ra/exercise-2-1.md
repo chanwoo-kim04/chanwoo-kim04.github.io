@@ -6,9 +6,7 @@ author_profile: true
 mathjax: true
 ---
 
-**Problem:** Let $A$ be a set...
-
-**Solution:** We first show that...
+**Solution:** We first show that
 
 <p style="text-align: center;">
   <a href="/bass-solutions/" class="btn btn--info" style="text-decoration: none;">
