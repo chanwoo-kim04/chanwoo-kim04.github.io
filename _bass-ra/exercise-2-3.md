@@ -21,8 +21,8 @@ Let $\mathcal{A} = \bigcup_{n=1}^{\infty} \mathcal{A}_n$.
 We will show that $\mathcal{A}$ is not a $\sigma$-algebra by finding a countable collection of sets in $\mathcal{A}$ whose union is not in $\mathcal{A}$. 
 
 Consider the sets $S_n = \qty{2n}$ for $n \in \mathbb{N}$. 
-For any given $n$, the set $S_n$ is an element of the partition $\mathcal{P}_{2n}$, and thus $S_n \in \mathcal{A}_{2n}$. 
-Since $\mathcal{A}_{2n} \sub \mathcal{A}$, it follows that $S_n \in \mathcal{A}$ for all $n$. 
+For any given $n$, the set $S_n$ is an element of the partition $\mathcal{P}\_{2n}$, and thus $S_n \in \mathcal{A}\_{2n}$. 
+Since $\mathcal{A}\_{2n} \sub \mathcal{A}$, it follows that $S_n \in \mathcal{A}$ for all $n$. 
 
 Now, consider the countable union of these sets:
 $$
