@@ -8,7 +8,7 @@ mathjax: true
 
 **Solution:** Let $X = \qty{1, 2, 3}$ and consider the collection $\mathcal{M} = \qty{\varnothing, \qty{1}, \qty{1, 2}, X}$. 
 This collection is a monotone class because it is totally ordered by set inclusion. 
-It clearly contains both $\varnothing$ and $X$. 
+It contains both $\varnothing$ and $X$. 
 However, $\mathcal{M}$ is not a $\sigma$-algebra because it is not closed under complements. 
 For example, the complement of $\qty{1} \in \mathcal{M}$ is the set $\qty{2, 3}$, which is not in $\mathcal{M}$. 
 
