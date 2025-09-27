@@ -8,14 +8,15 @@ mathjax: true
 
 $\require{physics}$
 
-**Solution:** Let $X = \qty{1, 2, 3}$. Consider the two $\sigma$-algebras:
-- $\mathcal{A}_1 = \qty{\varnothing, \qty{1}, \qty{2, 3}, X}$
-- $\mathcal{A}_2 = \qty{\varnothing, \qty{2}, \qty{1, 3}, X}$
+**Solution:** Let us prove that $\mathcal{B} = \qty{f^{-1} \qty(A) \colon A \in \mathcal{A}}$ is a $\sigma$-algebra:
+- First, $\varnothing = f^{-1} \qty(\vn)$ and $X = f^{-1} \qty(Y)$, so both are in $\mathcal{B}$.
+- Next, if $B \in \mathcal{B}$, then $B = f ^{-1} \qty(A)$ for some $A \in \mathcal{A}$, and $X - B = f^{-1} \qty(Y - A)$.
+Since $\mathcal{A}$ is a $\sigma$-algebra, $Y - A \in \mathcal{A}$, so $X - B \in \mathcal{B}$. 
+- Finally, suppose $B_i \in \mathcal{B}$ for $i = 1$, $2$, \dots, so $B_i = f^{-1} \qty(A_i)$ for some $A_i \in \mathcal{A}$.
+Then $\bigcup_{i=1}^{\infty} B_i = \bigcup_{i=1}^{\infty} f^{-1} \qty(A_i) = f\inv \qty(\bigcup_{i=1}^{\infty} A_i)$.
+Since $\mathcal{A}$ is a $\sigma$-algebra, $\bigcup_{i=1}^{\infty} A_i \in \mathcal{A}$, so $\bigcup_{i=1}^{\infty} \in \mathcal{B}$.
 
-Their union is $\mathcal{A}_1 \cup \mathcal{A}_2 = \qty{\varnothing, \qty{1}, \qty{2}, \qty{1, 3}, \qty{2, 3}, X}$.
-For this union to be a $\sigma$-algebra, it must be closed under unions.
-However, while the sets $\qty{1}$ and $\qty{2}$ are both in $\mathcal{A}_1 \cup \mathcal{A}_2$, their union, $\qty{1, 2}$, is not an element of $\mathcal{A}_1 \cup \mathcal{A}_2$.
-Therefore, $\mathcal{A}_1 \cup \mathcal{A}_2$ is not a $\sigma$-algebra.
+Therefore, $\mathcal{B}$ is a $\sigma$-algebra.
 
 <p style="text-align: center;">
   <a href="/bass-solutions/" class="btn btn--info" style="text-decoration: none;">
