@@ -9,7 +9,7 @@ mathjax: true
 $\require{physics}$
 
 **Solution:** Let us prove that $\mathcal{B} = \qty{f^{-1} \qty(A) \colon A \in \mathcal{A}}$ is a $\sigma$-algebra:
-- First, $\varnothing = f^{-1} \qty(\vn)$ and $X = f^{-1} \qty(Y)$, so both are in $\mathcal{B}$.
+- First, $\varnothing = f^{-1} \qty(\varnothing)$ and $X = f^{-1} \qty(Y)$, so both are in $\mathcal{B}$.
 - Next, if $B \in \mathcal{B}$, then $B = f ^{-1} \qty(A)$ for some $A \in \mathcal{A}$, and $X - B = f^{-1} \qty(Y - A)$.
 Since $\mathcal{A}$ is a $\sigma$-algebra, $Y - A \in \mathcal{A}$, so $X - B \in \mathcal{B}$. 
 - Finally, suppose $B_i \in \mathcal{B}$ for $i = 1$, $2$, \dots, so $B_i = f^{-1} \qty(A_i)$ for some $A_i \in \mathcal{A}$.
