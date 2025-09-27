@@ -19,7 +19,7 @@ $$
   \bigcup_{i=1}^{\infty} B_i = \bigcup_{i=1}^{\infty} f^{-1} \qty(A_i) = f^{-1} \qty(\bigcup_{i=1}^{\infty} A_i) 
 $$
 
-      Since $\mathcal{A}$ is a $\sigma$-algebra, $\bigcup_{i=1}^{\infty} A_i \in \mathcal{A}$, so $\bigcup_{i=1}^{\infty} \in \mathcal{B}$.
+    Since $\mathcal{A}$ is a $\sigma$-algebra, $\bigcup_{i=1}^{\infty} A_i \in \mathcal{A}$, so $\bigcup_{i=1}^{\infty} \in \mathcal{B}$.
 
 Therefore, $\mathcal{B}$ is a $\sigma$-algebra.
 
