@@ -14,7 +14,9 @@ $\require{physics}$
 Since $\mathcal{A}$ is a $\sigma$-algebra, $Y - A \in \mathcal{A}$, so $X - B \in \mathcal{B}$. 
 - Finally, suppose $B_i \in \mathcal{B}$ for $i = 1$, $2$, $\dots$, so $B_i = f^{-1} \qty(A_i)$ for some $A_i \in \mathcal{A}$.
 Then
-$$ \bigcup_{i=1}^{\infty} B_i = \bigcup_{i=1}^{\infty} f^{-1} \qty(A_i) = f^{-1} \qty(\bigcup_{i=1}^{\infty} A_i) $$ 
+
+$$ \bigcup_{i=1}^{\infty} B_i = \bigcup_{i=1}^{\infty} f^{-1} \qty(A_i) = f^{-1} \qty(\bigcup_{i=1}^{\infty} A_i). $$ 
+
 Since $\mathcal{A}$ is a $\sigma$-algebra, $\bigcup_{i=1}^{\infty} A_i \in \mathcal{A}$, so $\bigcup_{i=1}^{\infty} \in \mathcal{B}$.
 
 Therefore, $\mathcal{B}$ is a $\sigma$-algebra.
