@@ -1,4 +1,4 @@
-{% raw %}---
+---
 title: "Exercise Solutions"
 layout: page
 permalink: /solutions/
