@@ -356,3 +356,8 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+collections:
+  cohn_solutions:
+    output: true
+    permalink: /cohn-solutions/:path/
