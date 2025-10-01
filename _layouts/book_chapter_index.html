@@ -13,8 +13,9 @@ layout: default
     <h1 class="page__title">Chapter {{ chapter_number }}: {{ chapter_data.title }}</h1>
     <div class="list__wrapper">
       {% assign solutions_collection = site[collection_name] %}
-      {% assign solutions_in_chapter = solutions_collection | where_exp: "item", "item.url contains '/chapter" | append: chapter_number | append: "/'" %}
-      
+      {% assign chapter_path_fragment = "/chapter" | append: chapter_number | append: "/" %}
+      {% assign solutions_in_chapter = solutions_collection | where_exp: "item", "item.url contains chapter_path_fragment" %}
+
       {% for post in solutions_in_chapter %}
         <div class="list__item">
           <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
