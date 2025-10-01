@@ -1,4 +1,3 @@
-{% raw %}
 ---
 title: "Exercise Solutions"
 layout: page
@@ -42,4 +41,3 @@ Hello
     </div>
   {% endfor %}
 </div>
-{% endraw %}
