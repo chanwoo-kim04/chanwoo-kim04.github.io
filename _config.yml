@@ -358,9 +358,9 @@ compress_html:
     envs: development
 
 collections:
-  cohn_solutions:
+  cohn-measure_solutions:
     output: true
-    permalink: /solutions/cohn/:path/
+    permalink: /solutions/cohn-measure/:path/
   rudin-pma_solutions:
     output: true
-    permalink: /solutions/rudin-pma/:path/
+    permalink: /solutions/rudin-analysis/:path/
