@@ -4,11 +4,11 @@ layout: page
 permalink: /solutions/
 ---
 
-Hello
+FANCY TITLE
 
 ---
 
-### Solutions to Donald Cohn's Measure Theory
+### Measure Theory by Donald L. Cohn
 
 <div class="list__wrapper">
   {% for item in site.data.cohn-measure_toc %}
@@ -26,7 +26,7 @@ Hello
 
 ---
 
-### Solutions to Rudin's Principles of Mathematical Analysis
+### Principles of Mathematical Analysis by Walter Rudin
 
 <div class="list__wrapper">
   {% for item in site.data.rudin-analysis_toc %}
