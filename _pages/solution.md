@@ -29,11 +29,11 @@ permalink: /solutions/
 ### Solutions to Rudin's Principles of Mathematical Analysis
 
 <div class="list__wrapper">
-  {% for item in site.data.rudin_toc %}
+  {% for item in site.data.rudin-pma_toc %}
     <div class="list__item">
       <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
         <h2 class="archive__item-title" itemprop="headline">
-          <a href="/solutions/rudin/chapter{{ item.chapter }}/" rel="permalink">
+          <a href="/solutions/rudin-pma/chapter{{ item.chapter }}/" rel="permalink">
             Chapter {{ item.chapter }}: {{ item.title }}
           </a>
         </h2>
