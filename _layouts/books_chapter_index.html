@@ -1,0 +1,30 @@
+{% raw %}---
+layout: default
+---
+{% assign chapter_number = page.chapter_number %}
+{% assign data_file_name = page.data_file %}
+{% assign collection_name = page.collection_name %}
+
+{% assign book_data = site.data[data_file_name] %}
+{% assign chapter_data = book_data | where: "chapter", chapter_number | first %}
+
+<div id="main" role="main">
+  <div class="archive">
+    <h1 class="page__title">Chapter {{ chapter_number }}: {{ chapter_data.title }}</h1>
+    <div class="list__wrapper">
+      {% assign solutions_collection = site[collection_name] %}
+      {% assign solutions_in_chapter = solutions_collection | where_exp: "item", "item.url contains '/chapter" | append: chapter_number | append: "/'" %}
+      
+      {% for post in solutions_in_chapter %}
+        <div class="list__item">
+          <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+            <h2 class="archive__item-title" itemprop="headline">
+              <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+            </h2>
+          </article>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endraw %}
