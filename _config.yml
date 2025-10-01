@@ -361,6 +361,6 @@ collections:
   cohn_solutions:
     output: true
     permalink: /solutions/cohn/:path/
-  rudin_pma_solutions:
+  rudin-pma_solutions:
     output: true
     permalink: /solutions/rudin-pma/:path/
