@@ -360,4 +360,7 @@ compress_html:
 collections:
   cohn_solutions:
     output: true
-    permalink: /cohn-solutions/:path/
+    permalink: /solutions/cohn/:path/
+  rudin_pma_solutions:
+    output: true
+    permalink: /solutions/rudin-pma/:path/
