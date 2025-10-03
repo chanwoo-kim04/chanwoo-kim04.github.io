@@ -372,10 +372,12 @@ defaults:
     values:
       layout: "single"
       author_profile: true
+      math: true
   - scope:
       path: ""
       type: "rudin-analysis_solutions"
     values:
       layout: "single"
       author_profile: true
+      math: true
   
