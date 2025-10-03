@@ -373,7 +373,6 @@ defaults:
       layout: "single"
       author_profile: true
       math: true
-      show_date: false
   - scope:
       path: ""
       type: "rudin-analysis_solutions"
@@ -381,5 +380,4 @@ defaults:
       layout: "single"
       author_profile: true
       math: true
-      show_date: false
   
