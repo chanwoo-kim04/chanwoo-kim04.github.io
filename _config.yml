@@ -295,21 +295,21 @@ defaults:
       author_profile: true
       share: true
   - scope:
-        path: ""
-        type: "cohn-measure_solutions"
-      values:
-        layout: "single"
-        author_profile: true
-        math: true
-        show_date: false
-    - scope:
-        path: ""
-        type: "munkres-analysis_solutions"
-      values:
-        layout: "single"
-        author_profile: true
-        math: true
-        show_date: false
+      path: ""
+      type: "cohn-measure_solutions"
+    values:
+      layout: "single"
+      author_profile: true
+      math: true
+      show_date: false
+  - scope:
+      path: ""
+      type: "munkres-analysis_solutions"
+    values:
+      layout: "single"
+      author_profile: true
+      math: true
+      show_date: false
 
 # Sass/SCSS
 sass:
