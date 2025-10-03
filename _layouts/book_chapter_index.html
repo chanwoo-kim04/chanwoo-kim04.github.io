@@ -16,7 +16,7 @@ layout: default
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <div class="page__inner-wrap">
       <header>
-        <h1 class="page__title" itemprop="headline">Chapter {{ chapter_number }}: {{ chapter_data.title }}</h1>
+        <h2 class="page__title" itemprop="headline">Chapter {{ chapter_number }}: {{ chapter_data.title }}</h2>
       </header>
       <section class="page__content" itemprop="text">
         <div class="list__wrapper exercise-grid">
@@ -27,9 +27,9 @@ layout: default
           {% for post in solutions_in_chapter %}
             <div class="list__item">
               <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-                <h2 class="archive__item-title" itemprop="headline">
+                <h3 class="archive__item-title" itemprop="headline">
                   <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
-                </h2>
+                </h3>
               </article>
             </div>
           {% endfor %}
