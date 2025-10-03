@@ -34,6 +34,7 @@ Please select your desired book and chapter below.
   </div>
 </div>
 
+<!-- 
 <div class="solution-accordion">
   <div class="accordion-header text-button">
     <span class="accordion-title">
@@ -57,3 +58,4 @@ Please select your desired book and chapter below.
     </div>
   </div>
 </div>
+ -->
