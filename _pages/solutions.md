@@ -2,20 +2,22 @@
 title: "Exercise Solutions"
 layout: page
 permalink: /solutions/
+author_profile: true
 ---
 
-FANCY TITLE
+This page contains a complete list of my exercise solutions, organized by textbook. 
+Please select your desired book and chapter below.
 
 ---
 
-### Measure Theory by Donald L. Cohn
+### Solutions to Donald Cohn's Measure Theory
 
 <div class="list__wrapper">
   {% for item in site.data.cohn-measure_toc %}
     <div class="list__item">
       <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
         <h2 class="archive__item-title" itemprop="headline">
-          <a href="/solutions/cohn-measure/chapter{{ item.chapter }}/" rel="permalink">
+          <a href="/solutions/cohn/chapter{{ item.chapter }}/" rel="permalink">
             Chapter {{ item.chapter }}: {{ item.title }}
           </a>
         </h2>
@@ -26,14 +28,14 @@ FANCY TITLE
 
 ---
 
-### Principles of Mathematical Analysis by Walter Rudin
+### Solutions to Rudin's Principles of Mathematical Analysis
 
 <div class="list__wrapper">
   {% for item in site.data.rudin-analysis_toc %}
     <div class="list__item">
       <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
         <h2 class="archive__item-title" itemprop="headline">
-          <a href="/solutions/rudin-analysis/chapter{{ item.chapter }}/" rel="permalink">
+          <a href="/solutions/rudin/chapter{{ item.chapter }}/" rel="permalink">
             Chapter {{ item.chapter }}: {{ item.title }}
           </a>
         </h2>
