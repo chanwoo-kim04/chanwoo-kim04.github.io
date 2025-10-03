@@ -232,7 +232,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
+  cohn-measure_solutions:
+    output: true
+    permalink: /solutions/cohn-measure/:path/
+  munkres-analysis_solutions:
+    output: true
+    permalink: /solutions/munkres-analysis/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -289,7 +294,22 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
+  - scope:
+        path: ""
+        type: "cohn-measure_solutions"
+      values:
+        layout: "single"
+        author_profile: true
+        math: true
+        show_date: false
+    - scope:
+        path: ""
+        type: "munkres-analysis_solutions"
+      values:
+        layout: "single"
+        author_profile: true
+        math: true
+        show_date: false
 
 # Sass/SCSS
 sass:
@@ -358,30 +378,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-collections:
-  cohn-measure_solutions:
-    output: true
-    permalink: /solutions/cohn-measure/:path/
-  munkres-analysis_solutions:
-    output: true
-    permalink: /solutions/munkres-analysis/:path/
-
-defaults:
-  - scope:
-      path: ""
-      type: "cohn-measure_solutions"
-    values:
-      layout: "single"
-      author_profile: true
-      math: true
-      show_date: false
-  - scope:
-      path: ""
-      type: "munkres-analysis_solutions"
-    values:
-      layout: "single"
-      author_profile: true
-      math: true
-      show_date: false
   
