@@ -13,7 +13,7 @@ Let $X = \qty{a, b, c}$.
 Let the collections $\mathcal{A}_1$ and $\mathcal{A}_2$ be defined as:
 - $\mathcal{A}_1 = \qty{\varnothing, \qty{a}, \qty{b, c}, X}$
 - $\mathcal{A}_2 = \qty{\varnothing, \qty{b}, \qty{a, c}, X}$
-- 
+
 Both $\mathcal{A}_1$ and $\mathcal{A}_2$ are $\sigma$-algebras on $X$.
 
 Their union, $\mathcal{A} = \mathcal{A}_1 \cup \mathcal{A}_2$, contains both $\qty{a}$ and $\qty{b}$. 
