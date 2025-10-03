@@ -364,3 +364,18 @@ collections:
   rudin-pma_solutions:
     output: true
     permalink: /solutions/rudin-analysis/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "cohn-measure_solutions"
+    values:
+      layout: "single"
+      author_profile: true
+  - scope:
+      path: ""
+      type: "rudin-analysis_solutions"
+    values:
+      layout: "single"
+      author_profile: true
+  
