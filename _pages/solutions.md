@@ -37,17 +37,17 @@ Please select your desired book and chapter below.
 <div class="solution-accordion">
   <div class="accordion-header text-button">
     <span class="accordion-title">
-      <h2>Solution to Rudin's Analysis</h2>
+      <h2>Solution to Munkres's Analysis on Manifolds</h2>
     </span>
     <span class="accordion-indicator">▼</span>
   </div>
   <div class="accordion-panel">
     <div class="list__wrapper">
-      {% for item in site.data.rudin-analysis_toc %}
+      {% for item in site.data.munkres-analysis_toc %}
         <div class="list__item">
           <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
             <h3 class="archive__item-title" itemprop="headline">
-              <a href="/solutions/rudin-analysis/chapter{{ item.chapter }}/" rel="permalink">
+              <a href="/solutions/munkres-analysis/chapter{{ item.chapter }}/" rel="permalink">
                 Chapter {{ item.chapter }}: {{ item.title }}
               </a>
             </h3>
