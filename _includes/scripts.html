@@ -7,11 +7,11 @@
 <script>
   window.MathJax = {
     loader: {
-      load: ['[tex]/ams', '[tex]/physics']
+      load: ['[tex]/autoload']
     },
     tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']]
+      packages: {'[+]': ['autoload', 'ams', 'physics']}
     }
   };
 </script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
