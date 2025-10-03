@@ -41,3 +41,49 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* -- Accordion Styles -- */
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.accordion-header:hover {
+  background-color: #f1f1f1;
+}
+
+.accordion-header h2 {
+  margin: 0; /* Removes extra space around the title */
+}
+
+.accordion-indicator {
+  font-size: 1em;
+  transition: transform 0.3s ease;
+}
+
+/* Rotates the triangle when active */
+.accordion-header.active .accordion-indicator {
+  transform: rotate(180deg);
+}
+
+.accordion-panel {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+
+.accordion-hint {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
+}
