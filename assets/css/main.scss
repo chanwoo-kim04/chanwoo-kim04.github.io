@@ -43,47 +43,35 @@
 ;
 
 /* -- Accordion Styles -- */
-.accordion-header {
+.accordion-header.text-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   text-align: left;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  padding: 10px 15px;
+  background: none; /* 배경 제거 */
+  border: none;     /* 테두리 제거 */
+  padding: 10px 0;  /* 위아래 여백만 살짝 */
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
 }
 
-.accordion-header:hover {
-  background-color: #f1f1f1;
-}
-
-.accordion-header h2 {
-  margin: 0; /* Removes extra space around the title */
+.accordion-header.text-button h2 {
+  margin: 0;
 }
 
 .accordion-indicator {
   font-size: 1em;
   transition: transform 0.3s ease;
+  padding-left: 10px; /* 제목과 간격 */
 }
 
-/* Rotates the triangle when active */
+/* 활성화 시 삼각형 회전 */
 .accordion-header.active .accordion-indicator {
   transform: rotate(180deg);
 }
 
 .accordion-panel {
   padding: 15px;
-  border: 1px solid #ddd;
-  border-top: 0;
-}
-
-.accordion-hint {
-    font-size: 0.9em;
-    color: #666;
-    margin-top: 0;
-    border-bottom: 1px dashed #ccc;
-    padding-bottom: 10px;
+  border-top: 1px solid #eee; /* 위쪽 구분선만 살짝 */
+  border-bottom: 1px solid #eee; /* 아래쪽 구분선 */
 }
