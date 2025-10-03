@@ -1,5 +1,5 @@
 ---
-title: "Cohn's Measure Theory, Exercise 1.1.1"
+title: "Exercise 1.1.1"
 date: 2025-10-04
 categories:
   - "Cohn's Measure Theory"
