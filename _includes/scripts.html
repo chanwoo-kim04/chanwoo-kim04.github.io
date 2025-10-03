@@ -6,9 +6,11 @@
 
 <script>
   window.MathJax = {
+    loader: {
+      load: ['[tex]/ams', '[tex]/physics']
+    },
     tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      packages: {'[+]': ['ams', 'physics']}
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
     },
     svg: {
       fontCache: 'global'
