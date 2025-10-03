@@ -13,7 +13,7 @@ Please select your desired book and chapter below.
 <div class="solution-accordion">
   <div class="accordion-header text-button">
     <span class="accordion-title">
-      <h2>Solutions to Donald Cohn's Measure Theory</h2>
+      <h2> Solution to Cohn's Measure Theory</h2>
     </span>
     <span class="accordion-indicator">▼</span>
   </div>
@@ -34,12 +34,10 @@ Please select your desired book and chapter below.
   </div>
 </div>
 
----
-
 <div class="solution-accordion">
   <div class="accordion-header text-button">
     <span class="accordion-title">
-      <h2>Solutions to Rudin's Principles of Mathematical Analysis</h2>
+      <h2>Solution to Rudin's Analysis</h2>
     </span>
     <span class="accordion-indicator">▼</span>
   </div>
