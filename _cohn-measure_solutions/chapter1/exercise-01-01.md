@@ -18,18 +18,18 @@ We now prove that $\mathcal{A} = \mathcal{S}$ by showing mutual inclusion.
 
 1. $\mathcal{A} \subset \mathcal{S}$.
 
-  Any set $\qty{x} \in \mathcal{C}$ is finite and thus countable, which means $\qty{x} \in \mathcal{S}$. 
-  Since the generating collection $\mathcal{C}$ is a subset of the $\sigma$-algebra $\mathcal{S}$, the smallest $\sigma$-algebra containing $\mathcal{C}$, which is $\mathcal{A}$, must also be a subset of $\mathcal{S}$.
+    Any set $\qty{x} \in \mathcal{C}$ is finite and thus countable, which means $\qty{x} \in \mathcal{S}$. 
+    Since the generating collection $\mathcal{C}$ is a subset of the $\sigma$-algebra $\mathcal{S}$, the smallest $\sigma$-algebra containing $\mathcal{C}$, which is $\mathcal{A}$, must also be a subset of $\mathcal{S}$.
 
 2. $\mathcal{S} \subset \mathcal{A}$.
 
-  Let $A$ be an arbitrary set in $\mathcal{S}$. We must consider two cases.
-    - If $A$ is countable, it is a countable union of its elements, $A = \bigcup_{x \in A} \qty{x}$.
-      Each singleton $\qty{x}$ is $\mathcal{C}$, so $\qty{x} \in \mathcal{A}$.
-      Because $\mathcal{A}$ is a $\sigma$-algebra, it is closed under countable unions, and therefore $A \in \mathcal{A}$.
-    - If $A$ has a countable complement, $A^c$, then by the argument above, $A^c \in \mathcal{A}$.
-      Since $\mathcal{A}$ is a $\sigma$-algebra, it is closed under complementation, so $A = \qty(A^c)^c$ must also be in $\mathcal{A}$.
+    Let $A$ be an arbitrary set in $\mathcal{S}$. We must consider two cases.
+      - If $A$ is countable, it is a countable union of its elements, $A = \bigcup_{x \in A} \qty{x}$.
+        Each singleton $\qty{x}$ is $\mathcal{C}$, so $\qty{x} \in \mathcal{A}$.
+        Because $\mathcal{A}$ is a $\sigma$-algebra, it is closed under countable unions, and therefore $A \in \mathcal{A}$.
+      - If $A$ has a countable complement, $A^c$, then by the argument above, $A^c \in \mathcal{A}$.
+        Since $\mathcal{A}$ is a $\sigma$-algebra, it is closed under complementation, so $A = \qty(A^c)^c$ must also be in $\mathcal{A}$.
   
-  In both cases, any set $\mathcal{S}$ is also in $\mathcal{A}$. 
+    In both cases, any set $\mathcal{S}$ is also in $\mathcal{A}$. 
 
 Since both inclusions hold, we conclude that wto collections are identical.
