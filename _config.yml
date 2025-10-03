@@ -363,9 +363,9 @@ collections:
   cohn-measure_solutions:
     output: true
     permalink: /solutions/cohn-measure/:path/
-  rudin-pma_solutions:
+  munkres-analysis_solutions:
     output: true
-    permalink: /solutions/rudin-analysis/:path/
+    permalink: /solutions/munkres-analysis/:path/
 
 defaults:
   - scope:
@@ -378,7 +378,7 @@ defaults:
       show_date: false
   - scope:
       path: ""
-      type: "rudin-analysis_solutions"
+      type: "munkres-analysis_solutions"
     values:
       layout: "single"
       author_profile: true
