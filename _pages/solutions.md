@@ -17,7 +17,7 @@ Please select your desired book and chapter below.
     <div class="list__item">
       <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
         <h2 class="archive__item-title" itemprop="headline">
-          <a href="/solutions/cohn/chapter{{ item.chapter }}/" rel="permalink">
+          <a href="/solutions/cohn-measure/chapter{{ item.chapter }}/" rel="permalink">
             Chapter {{ item.chapter }}: {{ item.title }}
           </a>
         </h2>
@@ -35,7 +35,7 @@ Please select your desired book and chapter below.
     <div class="list__item">
       <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
         <h2 class="archive__item-title" itemprop="headline">
-          <a href="/solutions/rudin/chapter{{ item.chapter }}/" rel="permalink">
+          <a href="/solutions/rudin-analysis/chapter{{ item.chapter }}/" rel="permalink">
             Chapter {{ item.chapter }}: {{ item.title }}
           </a>
         </h2>
