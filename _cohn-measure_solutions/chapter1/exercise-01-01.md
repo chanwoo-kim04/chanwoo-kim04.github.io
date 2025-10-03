@@ -8,7 +8,7 @@ tags:
   - "Sigma Algebra"
 ---
 
-\require{physics}
+$\require{physics}$
 
 ### Solution
 
