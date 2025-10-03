@@ -8,4 +8,3 @@ tags:
   - "Baire Category Theorem"
 ---
 $\require{physics}$
-...
