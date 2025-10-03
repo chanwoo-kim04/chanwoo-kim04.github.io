@@ -1,6 +1,6 @@
 ---
 title: "Exercise Solutions"
-layout: page
+layout: single
 permalink: /solutions/
 author_profile: true
 ---
