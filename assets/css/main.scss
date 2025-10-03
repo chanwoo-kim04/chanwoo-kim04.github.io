@@ -75,3 +75,29 @@
   border-top: 1px solid #eee; /* 위쪽 구분선만 살짝 */
   border-bottom: 1px solid #eee; /* 아래쪽 구분선 */
 }
+
+/* -- Exercise Grid Layout -- */
+.exercise-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns on large screens */
+  gap: 10px; /* Space between items */
+}
+
+/* Make it 2 columns on medium screens */
+@media screen and (max-width: 768px) {
+  .exercise-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Make it 1 column on small screens */
+@media screen and (max-width: 576px) {
+  .exercise-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Optional: Center text in each grid item */
+.exercise-grid .list__item .archive__item-title {
+  text-align: center;
+}
