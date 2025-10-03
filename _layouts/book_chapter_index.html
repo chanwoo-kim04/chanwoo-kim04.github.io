@@ -9,27 +9,32 @@ layout: default
 {% assign chapter_data = book_data | where: "chapter", chapter_number | first %}
 
 <div id="main" role="main">
-  <div class="page__inner-wrap">
-
+  <div class="sidebar sticky">
     {% include author-profile.html %}
-
-    <div class="archive">
-      <h3 class="page__title">Chapter {{ chapter_number }}: {{ chapter_data.title }}</h3>
-      <div class="list__wrapper exercise-grid">
-        {% assign solutions_collection = site[collection_name] %}
-        {% assign chapter_path_fragment = "/chapter" | append: chapter_number | append: "/" %}
-        {% assign solutions_in_chapter = solutions_collection | where_exp: "item", "item.url contains chapter_path_fragment" %}
-
-        {% for post in solutions_in_chapter %}
-          <div class="list__item">
-            <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-              <h2 class="archive__item-title" itemprop="headline">
-                <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
-              </h2>
-            </article>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
   </div>
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <div class="page__inner-wrap">
+      <header>
+        <h1 class="page__title" itemprop="headline">Chapter {{ chapter_number }}: {{ chapter_data.title }}</h1>
+      </header>
+      <section class="page__content" itemprop="text">
+        <div class="list__wrapper exercise-grid">
+          {% assign solutions_collection = site[collection_name] %}
+          {% assign chapter_path_fragment = "/chapter" | append: chapter_number | append: "/" %}
+          {% assign solutions_in_chapter = solutions_collection | where_exp: "item", "item.url contains chapter_path_fragment" %}
+
+          {% for post in solutions_in_chapter %}
+            <div class="list__item">
+              <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+                <h2 class="archive__item-title" itemprop="headline">
+                  <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+                </h2>
+              </article>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+    </div>
+  </article>
 </div>
