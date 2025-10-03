@@ -9,7 +9,7 @@ layout: default
 {% assign chapter_data = book_data | where: "chapter", chapter_number | first %}
 
 <div id="main" role="main">
-  {% include author_profile.html %}
+  {% include author-profile.html %}
   <div class="archive">
     <h3 class="page__title">Chapter {{ chapter_number }}: {{ chapter_data.title }}</h3>
     <div class="list__wrapper exercise-grid">
