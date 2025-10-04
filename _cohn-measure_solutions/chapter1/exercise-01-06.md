@@ -3,7 +3,7 @@ title: "Exercise 1.1.6"
 date: 2025-10-04
 ---
 $\require{physics}$
-Let $\mathcal{A}$ be the collection of all subsets of $\mathbb[R}$ of the form $\qty(a, \infty)$ for some $a \in \mathbb{R}$, along with the sets $\varnothing$ and $\mathbb{R}$. 
+Let $\mathcal{A}$ be the collection of all subsets of $\mathbb{R}$ of the form $\qty(a, \infty)$ for some $a \in \mathbb{R}$, along with the sets $\varnothing$ and $\mathbb{R}$. 
 
 This collection satisfies the required properties. 
 By definition, it contains $\mathbb{R}$. 
