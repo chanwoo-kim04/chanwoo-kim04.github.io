@@ -1,12 +1,6 @@
 ---
 title: "Exercise 1.1.5"
 date: 2025-10-04
-categories:
-  - "Cohn's Measure Theory"
-tags:
-  - "Measure Theory"
-  - "Sigma Algebra"
-  - "Counterexample"
 ---
 $\require{physics}$
 Let $X = \qty{a, b, c}$. 
