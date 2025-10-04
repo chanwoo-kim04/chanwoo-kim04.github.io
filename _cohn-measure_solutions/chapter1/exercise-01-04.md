@@ -1,11 +1,6 @@
 ---
 title: "Exercise 1.1.4"
 date: 2025-10-04
-categories:
-  - "Cohn's Measure Theory"
-tags:
-  - "Measure Theory"
-  - "Sigma Algebra"
 ---
 $\require{physics}$
 Let $\mathcal{A}$ be an algebra of sets that is also closed under countable disjoint unions. 
