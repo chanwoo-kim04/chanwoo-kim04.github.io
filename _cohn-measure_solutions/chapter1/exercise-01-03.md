@@ -1,12 +1,6 @@
 ---
 title: "Exercise 1.1.3"
 date: 2025-10-04
-categories:
-  - "Cohn's Measure Theory"
-tags:
-  - "Measure Theory"
-  - "Sigma Algebra"
-  - "Borel Sigmal Algebra"
 ---
 $\require{physics}$
 Let $\mathcal{K}$ be the collection of all compact subsets of $\mathbb{R}$. 
