@@ -1,12 +1,6 @@
 ---
 title: "Exercise 1.1.2"
 date: 2025-10-04
-categories:
-  - "Cohn's Measure Theory"
-tags:
-  - "Measure Theory"
-  - "Sigma Algebra"
-  - "Borel Sigmal Algebra"
 ---
 $\require{physics}$
 Let $\mathcal{C}\_{\mathbb{Q}} = \qty{\left(-\infty, b \right] \colon b \in \mathbb{Q}}$. 
