@@ -27,5 +27,5 @@ Now, we show that $\mathcal{A}$ is a $\sigma$-algebra.
 Since $\mathcal{A}$ is a $\sigma$-algebra containing $\mathcal{T}$, and $\sigma\qty(\mathcal{T})$ is the smallest such $\sigma$-algebra, we have $\sigma \qty(\mathcal{T}) \subset \mathcal{A}$. 
 Combined with $\mathcal{A} \subset \sigma \qty(\mathcal{T})$, we conclude that $\mathcal{A} = \sigma \qty(\mathcal{T})$. 
 
-Therefore, for any $A \in \sigma \qty(\mathcal{T})$, it must be that $A \in \mathal{A}$. 
+Therefore, for any $A \in \sigma \qty(\mathcal{T})$, it must be that $A \in \mathcal{A}$. 
 By the definition of $\mathcal{A}$, this means there exists a countable subfamily $\mathcal{C}_0$ of $\mathcal{T}$ such that $A \in \sigma \qty(\mathcal{C}_0)$. 
