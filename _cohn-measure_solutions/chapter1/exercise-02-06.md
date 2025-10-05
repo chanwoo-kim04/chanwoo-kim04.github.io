@@ -67,7 +67,7 @@ $$
   S = \sup \qty{\sum_{\qty(n, k) \in F} c_{nk} \colon F \text{ is a finite subset of } \mathbb{N} \times \mathbb{N}}
 $$
 
-For any finite $N$ and $K$$, we have $\sum_{n=1}^N \sum_{k=1}^K c_{nk} \leq S$. 
+For any finite $N$ and $K$$, we have $\sum\_{n=1}^N \sum_{k=1}^K c\_{nk} \leq S$. 
 By letting first $K \to \infty$ and then $N \to \infty$, we get $\sum_{n=1}^\infty \sum_{k=1}^\infty c_{nk} \leq S$. 
 For the reverse inequality, let $F$ be any finite subset of $\mathbb{N} \times \mathbb{N}$. 
 We can choose $N$ and $K$ large enough so that $F \subset \qty{1, \dots, N} \times \qty{1, \dots, K}$. 
