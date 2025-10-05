@@ -17,7 +17,7 @@ By construction, the collection of open intervals $\qty{I_n}_{n=1}^\infty$ forms
 The sum of the lengths of these intervals is given by the geometric series:
 
 $$
-  \sum_{n=1}^\infty \ell \qty(I_n) = \sum_{n=1}^\infty \frac{\varepsilon}{2^n} = \varepsilon
+  \sum_{n=1}^\infty \lambda \qty(I_n) = \sum_{n=1}^\infty \frac{\varepsilon}{2^n} = \varepsilon
 $$
  
 According to the definition of Lebesgue outer measure, $\lambda^* \qty(C)$ is the infimum of the sums of lengths of all such countable open interval covers. 
