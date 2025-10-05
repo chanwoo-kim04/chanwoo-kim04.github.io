@@ -3,7 +3,6 @@ title: "Exercise 1.3.4"
 date: 2025-10-06
 ---
 $\require{physics}$
-
 First, we establish the measure of the open interval $\qty(-\infty, b)$. 
 This interval can be expressed as the countable union of an increasing sequence of sets:
 
