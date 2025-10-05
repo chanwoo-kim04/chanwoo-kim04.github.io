@@ -3,7 +3,7 @@ title: "Exercise 1.1.8"
 date: 2025-10-04
 ---
 $\require{physics}$
-We establish a one-to-one correspondence between the partitions of $\mathbb[N}$ and the $\sigma$-algebrs on $\mathbb{N}$. 
+We establish a one-to-one correspondence between the partitions of $\mathbb{N}$ and the $\sigma$-algebrs on $\mathbb{N}$. 
 
 Let $\mathcal{A}$ be an arbitrary $\sigma$-algebra on $\mathbb{N}$. 
 We define an equivalence relation $\sim$ on $\mathbb{N}$ by $n \sim m$ if and only if for every set $A \in \mathcal{A}$, the condition $n \in A$ is equivalent to $m \in A$. 
