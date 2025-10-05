@@ -26,11 +26,11 @@ $$
   \mu \qty(A \cup B \cup C) &= \mu \qty(A \cup D) \\
   &= \mu \qty(A) + \mu \qty(D) - \mu \qty(A \cap D) \\
   &= \mu \qty(A) + \mu \qty(B \cup C) - \mu \qty(\qty(A \cap B) \cup \qty(A \cap C)) \\
-  &= \mu \qty(A) + \qty(\mu \qty(B) + \mu \qty(C) - \mu \qty(B \cap C)) \\
-  &\quad - \qty(\mu \qty(A \cap B) + \mu \qty(A \cap C) - \mu \qty(A \cap B \cap C)) \\
+  &= \mu \qty(A) + \qty[\mu \qty(B) + \mu \qty(C) - \mu \qty(B \cap C)] \\
+  &\qquad - \qty[\mu \qty(A \cap B) + \mu \qty(A \cap C) - \mu \qty(A \cap B \cap C)] \\
   &= \mu \qty(A) + \mu \qty(B) + \mu \qty(C) \\
-  &\quad - \mu \qty(A \cap B) - \mu \qty(A \cap C) - \mu \qty(B \cap C) \\
-  &\quad + \mu \qty(A \cap B \cap C)
+  &\qquad - \mu \qty(A \cap B) - \mu \qty(A \cap C) - \mu \qty(B \cap C) \\
+  &\qquad + \mu \qty(A \cap B \cap C)
 \end{aligned}
 $$
 
