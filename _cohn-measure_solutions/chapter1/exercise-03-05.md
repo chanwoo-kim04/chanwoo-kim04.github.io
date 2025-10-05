@@ -31,8 +31,8 @@ This is trivial if $\mu^* \qty(A) = \infty$.
 Assume $\mu^* \qty(A) < \infty$, and let $\varepsilon > 0$. 
 Choose a countable cover $\qty{C_n} \subseteq \mathcal{A}$ for $A$ such that $\sum_{n=1}^\infty \mu \qty(C_n) < \mu^* \qty(A) + \varepsilon$. 
 Since $B \in \mathcal{A}$ and $\mathcal{A}$ is an algebra, both $C_n \cap B$ and $C_n \cap B^c$ are in $\mathcal{A}$. 
-The collections $\qty{C_n \cap B}_{n=1}^\infty$ and $\qty{C_n \cap B^c}_{n=1}^\infty$ are countable covers of $A \cap B$ and $A \cap B^c$ respectively. 
-By the definition of $\mu^*$ and the finite additivity of $\mu$ on $\mathcal{A}$:
+The collections $\qty{C_n \cap B}\_{n=1}^\infty$ and $\qty{C\_n \cap B^c}\_{n=1}^\infty$ are countable covers of $A \cap B$ and $A \cap B^c$ respectively. 
+By the definition of $\mu^{\*}$ and the finite additivity of $\mu$ on $\mathcal{A}$:
 
 $$
 \begin{aligned}
