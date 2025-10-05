@@ -61,3 +61,12 @@ $$
   &\qquad + \sum_{\varnothing \neq J \subseteq {1,\dots,n-1}} (-1)^{\abs{J}} \mu\qty(\qty(\bigcap_{j \in J} A_j) \cap A_n)
 \end{aligned}
 $$
+
+The terms in this expression can be regrouped to form the desired formula for $n$ sets. 
+Any intersection over an index set $K \subseteq \qty{1, \dots, n}$ of size $k$ appears as follows:
+- If $n \notin K$, the term $\mu \qty(\bigcap_{k \in K} A_k)$ appears once in the first summation with coefficient $\qty(-1)^{k-1}$.
+- If $n \in K$ and $K \neq \qty{n}$, let $K = J \cup \qty{n}$ where $\abs{J}=k-1$.
+  The term $\mu \qty(\bigcap_{k \in K} A_k)$ appears once in the final summation with coefficient $\qty(-1)^{\abs{J}} = \qty(-1)^{k-1}
+- The term $\mu \qty(A_n)$ corresponds to the case $K = \qty{n}$ of size $k=1$, with coefficient $1 = \qty(-1)^{1-1}$.
+
+Combining these cases yields the general formula, completing the induction.
