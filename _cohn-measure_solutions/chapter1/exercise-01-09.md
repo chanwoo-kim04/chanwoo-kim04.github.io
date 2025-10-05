@@ -9,7 +9,7 @@ Each singleton $\qty{q}$ is a closed set in $\mathbb{R}$.
 Therefore, $\mathbb{Q}$ is a countable union of closed sets, which by definition makes it an $F_\sigma$ set. 
 
 However, $\mathbb{Q}$ is not a $G_\delta$ set. 
-Assume for the sake of contradiction that $\mathbb{Q}$ is a $G_\delta $set. 
+Assume for the sake of contradiction that $\mathbb{Q}$ is a $G_\delta$ set. 
 Then $\mathbb{Q} = \bigcap_{n=1}^\infty U_n$ for some sequence of open sets $\qty{U_n}$. 
 Since $\mathbb{Q}$ is dense in $\mathbb{R}$ and $\mathbb{Q} \subseteq U_n$ for every $n$, each open set $U_n$ must also be dense in $\mathbb{R}$. 
 This means that each complement $U_n^c$ is a closed set with an empty interior, which defines it as a nowhere dense set. 
