@@ -39,3 +39,23 @@ $$
 $$
   \mu \qty(\bigcup_{i=1}^n A_i) = \sum_{\varnothing \neq J \subseteq \qty{1, \dots, n}} \qty(-1)^{\abs{J}-1} \mu \qty(\bigcap_{j \in J} A_j)
 $$
+
+We prove this by induction on $n$. 
+The base case $n = 2$ is established in part (a). 
+
+Assume the formula holds for any union of $n-1$ sets. 
+Let $U_n = \bigcup_{i=1}^n A_i$ and $U_{n-1} = \bigcup_{i=1}^{n-1} A_i$. 
+Using the result for two sets, we have:
+
+$$
+  \mu \qty(U_n) = \mu \qty(U_{n-1} \cup A_n) = \mu \qty(U_{n-1}) + \mu \qty(A_n) - \mu \qty(U_{n-1} \cap A_n)
+$$
+
+We apply the inductive hypothesis to $\mu \qty(U_{n-1}$ and also to $\mu \qty(U_{n-1} \cap A) = \mu \qty(\bigcup_{i=1}^{n-1} \qty(A_i \cap A_n))$.
+
+$$
+\begin{aligned}
+  \mu \qty(U_n) &= \qty(\sum_{\varnothing \neq J \subseteq \qty{1, \dots, n-1}} \qty(-1)^{\abs{J}-1} \mu \qty(\bigcap_{j \in J} A_j)) + \mu \qty(A_n) - \qty(\sum_{\varnothing \neq J \subseteq \qty{1, \dots, n-1}} \qty(-1)^{\abs{J}-1} \mu \qty(\bigcap_{j \in J} \qty(A_j \cap A_n))) \\
+  &= \left( \sum_{\emptyset \neq J \subseteq {1,\dots,n-1}} (-1)^{\abs{J}-1} \mu\left(\bigcap_{j \in J} A_j\right) \right) + \mu(A_n) + \sum_{\emptyset \neq J \subseteq {1,\dots,n-1}} (-1)^{\abs{J}} \mu\left(\left(\bigcap_{j \in J} A_j\right) \cap A_n\right)
+\end{aligned}
+$$
