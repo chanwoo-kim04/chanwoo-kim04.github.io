@@ -12,7 +12,7 @@ Therefore, $\mu$ is a measure on $\qty(\mathbb{R}, \mathcal{B}\qty(\mathbb{R}))$
 
 To show that $\mu$ is $\sigma$-finite, we must express $\mathbb{R}$ as a countable union of Borel sets of finite measure. 
 We can partition $\mathbb{R}$ into the set of rational numbers and the set of irrational numbers: $\mathbb{R} = \mathbb{Q} \cup \qty(\mathbb{R} - \mathbb{Q})$. 
-The set of rationals is $\mathbb{Q} = \bigcup_{n=1}^\infty \qty{q_n]$. 
+The set of rationals is $\mathbb{Q} = \bigcup_{n=1}^\infty \qty{q_n}$. 
 Each singleton $\qty{q_n}$ is a Borel set with $\mu \qty(\qty{q_n}) = 1 < \infty$. 
 The set of irrationals, $\mathbb{R} - \mathbb{Q}$, is also a Borel set as the complement of the $F_\sigma$ set $\mathbb{Q}$, and has measure $\mu \qty(\mathbb{R} - \mathbb{Q}) = 0 < \infty$. 
 Thus, $\mathbb{R}$ is a countable union of sets of finite measure, which by definition means $\mu$ is $\sigma$-finite. 
