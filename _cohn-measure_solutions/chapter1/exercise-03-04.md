@@ -28,7 +28,7 @@ For the open interval $\qty(a, b)$, we have the disjoint union $\qty(-\infty, b)
 By additivity:
     
 $$
-  \mu \qty(\qty(-\infty, b)) = \mu \qty(\left(-\infty, a \right] \right) + \mu \qty(\qty(a, b))
+  \mu \qty(\qty(-\infty, b)) = \mu \qty(\left(-\infty, a \right]) + \mu \qty(\qty(a, b))
 $$
 
 Substituting the known values, we get:
@@ -43,7 +43,7 @@ For the closed interval $\qty[a, b]$, we have the disjoint union $\left(-\infty,
 By additivity:
 
 $$
-  \mu \qty(\left(-\infty, b \right] \right) = \mu \qty(\qty(-\infty, a)) + \mu \qty(\qty[a, b])
+  \mu \qty(\left(-\infty, b \right] ) = \mu \qty(\qty(-\infty, a)) + \mu \qty(\qty[a, b])
 $$
 
 Substituting the known values and rearranging gives $\mu \qty(\qty[a, b]) = F \qty(b) - F \qty(a-)$. 
