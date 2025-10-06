@@ -3,7 +3,6 @@ title: "Exercise 1.3.8"
 date: 2025-10-06
 ---
 $\require{physics}$
-
 First, assume that $B$ is a Lebesgue measurable subset of $\mathbb{R}$. 
 By the definition of measurability, the equality $\lambda^{\*} \qty(A) = \lambda^{\*} \qty(A \cap B) + \lambda^{\*} \qty(A \cap B^c)$ holds for every subset $A \subseteq \mathbb{R}$. 
 Letting $A = I$ gives the desired equality. 
