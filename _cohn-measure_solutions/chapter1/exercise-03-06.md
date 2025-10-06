@@ -40,7 +40,7 @@ Then for any $A \in \sigma \qty(\mathcal{A})$, the continuity of measure from be
 
 $$
 \begin{aligned}
-  \nu_1 \qty(A) = \lim_{n \to \infty} \nu_1 \qty(A \cap X_n) = \lim_{n \to \infty} \nu_{1, n} \qty(A) \\
+  \nu_1 \qty(A) &= \lim_{n \to \infty} \nu_1 \qty(A \cap X_n) = \lim_{n \to \infty} \nu_{1, n} \qty(A) \\
   &= \lim_{n \to \infty} \nu_{2, n} \qty(A) = \lim_{n \to \infty} \nu_2 \qty(A \cap X_n) = \nu_2 \qty(A)
 \end{aligned}
 $$
