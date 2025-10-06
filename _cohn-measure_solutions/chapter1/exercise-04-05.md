@@ -12,7 +12,7 @@ Since $I_1$ is a nonempty open set, it contains a closed interval, within which 
 Because $C_1$ is nowhere dense, the set $I_1-K_1$ remains a nonempty open set with positive measure. 
 Within this remaining open set, we can again find a closed interval and construct a second disjoint fat Cantor set $D_1$ with positive measure. 
 
-For the inductive step, assume that for $j=1$, \dots, $n-1$, we have chosen pairwise disjoint compact sets $C_j$ and $D_j$. 
+For the inductive step, assume that for $j=1$, $\dots$, $n-1$, we have chosen pairwise disjoint compact sets $C_j$ and $D_j$. 
 Let $S_{n-1} = \bigcup_{j=1}^{n-1} \qty(C_j \cup D_j)$. 
 Since $S_{n-1}$ is a finite union of nowhere dense sets, it is itself a nowhere dense set. 
 Therefore, the set $O_n = I_n - S_{n-1}$ is a nonempty open set. 
