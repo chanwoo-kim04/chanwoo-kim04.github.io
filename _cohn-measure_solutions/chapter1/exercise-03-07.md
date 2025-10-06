@@ -14,29 +14,29 @@ Let $A$ be such a set, and let $\varepsilon > 0$.
 By the definition of the Lebesgue outer measure, there exists a countable collection of bounded open intervals, $\qty{I_n}_{n=1}^\infty$, that covers $A$ and satisfies:
 
 $$
-  \sum_{n=1}^\infty \lambda \qty(I_n) < \lambda^{\*} \qty(A) + \varepsilon
+  \sum_{n=1}^\infty \lambda \qty(I_n) < \lambda^{*} \qty(A) + \varepsilon
 $$
 
 By our hypothesis, the additivity condition holds for each of these open intervals. 
 Since the outer measure of an interval is its length, we have $\lambda^{\*} \qty(I_n) = \lambda \qty(I_n)$, so:
 
 $$
-  \lambda \qty(I_n) = \lambda^{\*} \qty(I_n \cap B) + \lambda^{\*} \qty(I_n \cap B^c)
+  \lambda \qty(I_n) = \lambda^{*} \qty(I_n \cap B) + \lambda^{*} \qty(I_n \cap B^c)
 $$
 
 Summing this equality over all $n$ yields:
 
 $$
-  \sum_{n=1}^\infty \lambda \qty(I_n) = \sum_{n=1}^\infty \lambda^{\*} \qty(I_n \cap B) + \sum_{n=1}^\infty \lambda^{\*} \qty(I_n \cap B^c)
+  \sum_{n=1}^\infty \lambda \qty(I_n) = \sum_{n=1}^\infty \lambda^{*} \qty(I_n \cap B) + \sum_{n=1}^\infty \lambda^{*} \qty(I_n \cap B^c)
 $$
 
-The collection $\qty{I_n \cap B}_{n=1}^\infty$ covers the set $A \cap B$, and the collection $\qty{I\_n \cap B^c}_{n=1}^\infty$ covers the set $A \cap B^c$. 
+The collection $\qty{I_n \cap B}\_{n=1}^\infty$ covers the set $A \cap B$, and the collection $\qty{I_n \cap B^c}\_{n=1}^\infty$ covers the set $A \cap B^c$. 
 By the countable subadditivity of the outer measure $\lambda^{\*}$:
 
 $$
 \begin{aligned}
-  \lambda^{\*} \qty(A \cap B) + \lambda^{\*} \qty(A \cap B^c) &\leq \sum_{n=1}^\infty \lambda^{\*} \qty(I_n \cap B) + \sum_{n=1}^\infty \lambda^{\*} \qty(I_n \cap B^c) \\
-  &= \sum_{n=1}^\infty \lambda \qty(I_n) < \lambda^{\*} \qty(A) + \varepsilon
+  \lambda^{*} \qty(A \cap B) + \lambda^{*} \qty(A \cap B^c) &\leq \sum_{n=1}^\infty \lambda^{*} \qty(I_n \cap B) + \sum_{n=1}^\infty \lambda^{*} \qty(I_n \cap B^c) \\
+  &= \sum_{n=1}^\infty \lambda \qty(I_n) < \lambda^{*} \qty(A) + \varepsilon
 \end{aligned}
 $$
 
