@@ -9,7 +9,7 @@ Second, if $A \subseteq C$, then the projection $\pi \qty(A)$ is a subset of $\p
 Since $\lambda^{\*}$ is monotone, $\lambda^{\*} \qty(\pi \qty(A)) \leq \lambda^{\*} \qty(\pi \qty(C))$, which implies $\mu^{\*} \qty(A) \leq \mu^{\*} \qty(C)$. 
 Finally, for countable subadditivity, let $\qty{A_n}$ be a sequence of subsets of $\mathbb{R}^2$. 
 The projection of a union is the union of projections, so $\pi \qty(\bigcup_n A_n) = \bigcup_n \pi \qty(A_n)$. 
-Using this and the countable subbaditivity of $\lambda^*$:
+Using this and the countable subaditivity of $\lambda^*$:
 
 $$
 \begin{aligned}
@@ -54,7 +54,7 @@ Since $B_1 - B_0$ has outer measure $0$, it is measurable.
 Thus, $B_0 = B_1 - \qty(B_1 - B_0)$ is measurable. 
 The required inclusions $B_0 \times \mathbb{R} \subseteq B \subseteq B_1 \times \mathbb{R}$ follow from the definitions of $B_0$ and $B_1$. 
 
-Conversely, assume there exists Lebesgue measurable sets $B_0$, $B_1 \subseteq \mathbb{R}$ with $\lambda \qty(B_1 - B_0) = 0$ such that $B_0 \times \mathbb{R} \subseteq B \subseteq B_1 \times \mathbb{R}$. 
+Conversely, assume there exist Lebesgue measurable sets $B_0$, $B_1 \subseteq \mathbb{R}$ with $\lambda \qty(B_1 - B_0) = 0$ such that $B_0 \times \mathbb{R} \subseteq B \subseteq B_1 \times \mathbb{R}$. 
 Let $A \subseteq \mathbb{R}^2$ and let $S = \pi \qty(A)$. 
 From the inclusions for $B$, we deduce inclusions for the projections: $S \cap B_0 \subseteq \pi \qty(A \cap B) \subseteq S \cap B_1$ and $S \cap B_1^c \subseteq \pi \qty(A \cap B^c) \subseteq S \cap B_0^c$. 
 Since $\lambda \qty(B_1 - B_0) = 0$, it follows that $\lambda^* \qty(\pi \qty(A \cap B)) = \lambda^* \qty(S \cap B_1)$. 
