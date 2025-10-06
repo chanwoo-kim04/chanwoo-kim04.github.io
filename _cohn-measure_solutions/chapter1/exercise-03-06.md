@@ -17,20 +17,20 @@ $$
 Since this inequality holds for any such cover $\qty{C_n}$, $\nu \qty(A)$ must be less than or equal to the infimum of these sums. 
 Therefore, $\nu \qty(A) \leq \mu^* \qty(A)$. 
 
-(b) The existence of at least one extension, $\mu_{ext}$, is given by *Exercise 1.3.5(d)*, where $\mu_{\ext} \qty(A) = \mu^* \qty(A)$ for $A \in \sigma \qty(\mathcal{A})$. 
+(b) The existence of at least one extension, $\overline{\mu}$, is given by *Exercise 1.3.5(d)*, where $\overline{\mu} \qty(A) = \mu^* \qty(A)$ for $A \in \sigma \qty(\mathcal{A})$. 
 We now prove this extension is unique. 
 
 First, assume $\mu$ is a finite function on the algebra $\mathcal{A}$. 
 Let $\nu$ be any measure on $\sigma \qty(\mathcal{A})$ that extends $\mu$. 
-Both $\nu$ and $\mu_{ext}$ are thus finite measures. 
-From part (a), we know that for any set $A \in \sigma \qty(\mathcal{A})$, the inequality $\nu \qty(A) \leq \mu_{ext} \qty(A)$ holds. 
-Applying this to the complement $A^c \in \sigma \qty(\mathcal{A})$ gives $\nu \qty(A^c) \leq \mu_{ext}\qty(A^c)$. 
-Because both are finite measures, we can write this as $\nu \qty(X) - \nu \qty(A) \leq \mu_{ext} \qty(X) - \mu_{ext} \qty(A)$. 
-Since both measures extend $\mu$ and $X \in \mathcal{A}$, we have $\nu \qty(X) = \mu \qty(X) = \mu_{ext} \qty(X) < \infty$. 
-The inequality simplifies to $\mu \qty(X) - \nu \qty(A) \leq \mu \qty(X) - \mu_{ext} \qty(A)$, which implies $\nu \qty(A) \geq \mu_{ext} \qty(A)$. 
-The two inequalities together show that $\nu \qty(A) = \mu_{ext} \qty(A)$ for all $A \in \sigma \qty(\mathcal{A})$, proving uniqueness for the finite case. 
+Both $\nu$ and $\overline{\mu}$ are thus finite measures. 
+From part (a), we know that for any set $A \in \sigma \qty(\mathcal{A})$, the inequality $\nu \qty(A) \leq \overline{\mu} \qty(A)$ holds. 
+Applying this to the complement $A^c \in \sigma \qty(\mathcal{A})$ gives $\nu \qty(A^c) \leq \overline{\mu}\qty(A^c)$. 
+Because both are finite measures, we can write this as $\nu \qty(X) - \nu \qty(A) \leq \overline{\mu} \qty(X) - \overline{\mu} \qty(A)$. 
+Since both measures extend $\mu$ and $X \in \mathcal{A}$, we have $\nu \qty(X) = \mu \qty(X) = \overline{\mu} \qty(X) < \infty$. 
+The inequality simplifies to $\mu \qty(X) - \nu \qty(A) \leq \mu \qty(X) - \overline{\mu} \qty(A)$, which implies $\nu \qty(A) \geq \overline{\mu} \qty(A)$. 
+The two inequalities together show that $\nu \qty(A) = \overline{\mu} \qty(A)$ for all $A \in \sigma \qty(\mathcal{A})$, proving uniqueness for the finite case. 
 
-Next, suppose there exists a sequence $\qty{X_n} \sbuseteq \mathcal{A}$ such that $X = \bigcup_{n=1}^\infty X_n$ and $\mu \qty(X_n)< \infty$. 
+Next, suppose there exists a sequence $\qty{X_n} \subseteq \mathcal{A}$ such that $X = \bigcup_{n=1}^\infty X_n$ and $\mu \qty(X_n)< \infty$. 
 We can assume $\qty{X_n}$ is an increasing sequence. 
 Let $\nu_1$ and $\nu_2$ be two measures on $\sigma \qty(\mathcal{A})$ that agree with $\mu$ on $\mathcal{A}$. 
 For each $n$, the function $\mu_n \qty(C) = \mu \qty(C \cap X_n)$ is a finite countably additive function on $\mathcal{A}$. 
