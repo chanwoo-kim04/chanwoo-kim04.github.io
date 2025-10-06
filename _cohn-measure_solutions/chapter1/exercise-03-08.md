@@ -20,9 +20,9 @@ Using the properties of the measure $\lambda$ and our hypothesis:
 
 $$
 \begin{aligned}
-  \lambda^{\*} \qty(B) + \lambda^{\*} \qty(I \cap B^c) &= \lambda \qty(I) \\
+  \lambda^* \qty(B) + \lambda^* \qty(I \cap B^c) &= \lambda \qty(I) \\
   &\leq \lambda \qty(G \cup H) \leq \lambda \qty(G) + \lambda \qty(H) \\
-  &= \lambda^{\*} \qty(B) + \lambda^{\*} \qty(I \cap B^c)
+  &= \lambda^* \qty(B) + \lambda^* \qty(I \cap B^c)
 \end{aligned}
 $$
 
