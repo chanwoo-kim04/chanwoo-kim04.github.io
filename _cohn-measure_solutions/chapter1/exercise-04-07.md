@@ -15,7 +15,7 @@ The sequence of subspaces $\qty{V_n}$ is strictly increasing, and their union is
 $$
 \begin{aligned}
   \bigcup_{n=1}^\infty V_n &= \text{span}_{\mathbb{Q}} \qty(\bigcup_{n=1}^\infty B_n) \\
-  &= \text{span}_{\mathbb{Q}} \qty(B) = \mathbb{R}$. 
+  &= \text{span}_{\mathbb{Q}} \qty(B) = \mathbb{R}
 \end{aligned}
 $$
 
