@@ -5,7 +5,7 @@ date: 2025-10-06
 $\require{physics}$
 We will construct the desired set $C$ by imitating the construction of the Cantor set, but by adjusting the proportion of the intervals removed at each step to achieve a final measure $\alpha$. 
 
-Let $\qty{p_k}_{k=1}^\infty$ be a sequence of proportions where $0 < p_k < 1$. 
+Let $\qty{p_k}\_{k=1}^\infty$ be a sequence of proportions where $0 < p_k < 1$. 
 We define a decreasing sequence of closed sets $\qty{C_k}_{k=0}^\infty$ starting with $C_0 = \qty[0, 1]$, which has measure $\lambda \qty(C_0) = 1$. 
 
 For each $k \geq $, we form the set $C_k$ from $C_{k-1}$ as follows. 
