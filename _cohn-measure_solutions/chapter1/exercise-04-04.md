@@ -40,5 +40,6 @@ We can choose an integer $k$ large enough so that the length of any interval com
 This means $\qty(a, b)$ cannot be a subset of any of the intervals in $C_k$. 
 Since $C \subseteq C_k$, it follows that $\qty(a, b)$ cannot be a subset of $C$. 
 Therefore, $C$ contains no nonempty open set. 
+
 ---
 A set constructed in this manner is known as a [fat Cantor set](https://en.wikipedia.org/wiki/Smith%E2%80%93Volterra%E2%80%93Cantor_set)
