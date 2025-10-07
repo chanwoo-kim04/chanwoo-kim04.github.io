@@ -63,4 +63,4 @@ $$
 This implies $\lambda \qty(\qty[0,1] \cap B_n) = 1$. 
 Since $\lambda \qty(B_n) \geq \lambda \qty(\qty[0,1] \cap B_n)$, we have $\lambda \qty(B_n) \geq 1$. 
 
-Combining this with the fact that $\lambda \qty(B_n) = \lambda^* \qty(A_n)$ and that $\lambda^* \qty(A_n) \leq \lambda^* \qty(\qty[0, 1]) = 1$, we get $\lambda \qty^* \qty(A_n) = 1$ for all $n$. 
+Combining this with the fact that $\lambda \qty(B_n) = \lambda^* \qty(A_n)$ and that $\lambda^* \qty(A_n) \leq \lambda^* \qty(\qty[0, 1]) = 1$, we get $\lambda^* \qty(A_n) = 1$ for all $n$. 
