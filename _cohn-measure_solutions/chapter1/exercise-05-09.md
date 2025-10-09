@@ -3,7 +3,7 @@ title: "Exercise 1.5.9"
 date: 2025-10-09
 ---
 $\require{physics}$
-First, we prove that the completion $\mathcal{A}\_{\mu}$ is a subset of the $\sigma$-algebra of $\mu^*$-measurable sets, which we denote by $\mathcal{M}$. 
+First, we prove that the completion $\mathcal{A}\_{\mu}$ is a subset of the $\sigma$-algebra of $\mu^{\*}$-measurable sets, which we denote by $\mathcal{M}$. 
 Let $B \in \mathcal{A}\_{\mu}$. 
 By definition, there exist measurable sets $E$, $F \in \mathcal{A}$ with $E \subseteq B \subseteq F$ and $\mu \qty(F-E) = 0$. 
 To show $B$ is $\mu^{\*}$-measurable, we must show $\mu^{\*} \qty(A) \geq \mu^{\*} \qty(A \cap B) + \mu^{\*} \qty(A \cap B^c)$ for any set $A \subseteq X$. 
