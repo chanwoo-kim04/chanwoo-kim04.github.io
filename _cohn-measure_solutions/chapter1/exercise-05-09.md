@@ -24,17 +24,14 @@ This establishes the desired inequality, proving that $B \in \mathcal{M}$ and th
 For the reverse inclusion, let $B \in \mathcal{M}$. 
 Since $\mu$ is $\sigma$-finite, we can write $X = \bigcup_{k=1}^\infty X_k$ for a sequence of disjoint $\mu$-measurable sets $\qty{X_k}$ with finite measure. 
 For each $k$, the set $B_k = B \cap X_k$ is $\mu^{\*}$-measurable with finite outer measure. 
-By *Exercise 1.5.5*, we can find a measurable set $F_k \supseteq B_k$ with $\mu \qty(F_k) = \mu^{\*} \qty(B_k)$, and similarly a measurable set $G_k \supseteq X_k - B_k$ with $\mu \qty(G_k) = \mu^{\*} \qty(X_k - B_k)$. 
-By substituting $G_k$ with $G_k \cap X_k$, we may assume $G_k \subseteq X_k$. 
-Let $E\_k = X_k - G_k$. 
-Then $E_k \in \mathcal{A}$ and $E_k \subseteq B_k$. 
-Since $B_k$ is $\mu^*$-measurable, $\mu^{\*} \qty(B_k) + \mu^{\*} \qty(X_k - B_k) = \mu \qty(X_k)$, which implies:
+By *Exercise 1.5.5*, we can find a measurable set $F_k \supseteq B_k$ with $\mu \qty(F_k) = \mu^{\*} \qty(B_k)$, 
+and a measurable set $E_k \subseteq B_k$ with $\mu \qty(E_k) = \mu_{\*} \qty(B_k)$. 
+Since $B_k$ is $\mu^*$-measurable, $\mu^{\*} \qty(B_k) = \mu_{\*} \qty(B_k)$, which implies:
 
 $$
 \begin{aligned}
   \mu \qty(F_k - E_k) &= \mu \qty(F_k) - \mu \qty(E_k) \\
-  &= \mu^* \qty(F_k) - \qty(\mu \qty(X_k) - \mu \qty(G_k)) \\
-  &= \mu^* \qty(B_k) - \mu \qty(X_k) + \mu^* \qty(X_k - B_k) = 0
+  &= \mu^* \qty(B_k) - \mu_* \qty(B_k) = 0
 \end{aligned}
 $$
 
