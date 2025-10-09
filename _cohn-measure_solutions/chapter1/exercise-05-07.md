@@ -25,12 +25,10 @@ $$
 By the definition of inner measure, this is, $\mu^* \qty(A) + \mu_* \qty(A^c) \leq \mu \qty(X)$.
 
 Next, we prove the reverse inequality, $\mu^* \qty(A) + \mu_* \qty(A^c) \geq \mu \qty(X)$.
-If $\mu_* \qty(A^c) = \infty$, the inequality holds trivially. 
-Thus, we may assume $\mu_* \qty(A^c) < \infty$. 
 Let $C$ be any measurable set such that $A \subseteq C$. 
 This implies that $C^c \subseteq A^c$. 
 Since $C^c$ is a measurable set contained in $A^c$, its measure is, by definition of inner measure, a lower bound for the supremum. 
-Thus, we have $\mu \qty(C^c) \leq \mu_* \qty(A^c) < \infty$. 
+Thus, we have $\mu \qty(C^c) \leq \mu_* \qty(A^c)$. 
 Since $C$ is a measurable set, $\mu \qty(C) + \mu \qty(C^c) = \mu \qty(X)$. 
 Combining this with the previous inequality gives:
 
