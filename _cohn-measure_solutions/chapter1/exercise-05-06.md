@@ -26,4 +26,4 @@ By the definition of inner measure as the supremum of the measures of all measur
 Since the outer measure is always greater than or equal to the inner measure, $\lambda^* \qty(A)$ must also be infinite. 
 
 We have constructed a set $A$ such that $\lambda_* \qty(A) = \lambda^* \qty(A) = \infty$, but $A$ is not in the completion. 
-This demonstrates that the implication "If $\mu_{\*} \qty(A) = \mu^{\*} \qty(A), then $A \in \mathcal{A}_{\mu}$" can fail when the assumption $\mu^{\*}\qty(A) < \infty$ is omitted. 
+This demonstrates that the implication "If $\mu_{\*} \qty(A) = \mu^{\*} \qty(A)$, then $A \in \mathcal{A}_{\mu}$" can fail when the assumption $\mu^{\*}\qty(A) < \infty$ is omitted. 
