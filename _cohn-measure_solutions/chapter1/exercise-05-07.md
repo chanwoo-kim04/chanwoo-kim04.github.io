@@ -22,7 +22,7 @@ $$
   \sup \qty{\mu \qty(B) \colon B \in \mathcal{A}, \; B \subseteq A^c} + \mu^* \qty(A) \leq \mu \qty(X)
 $$
 
-By the definition of inner measure, this is, $\mu^* \qty(A) + \mu_* \qty(A^c) \leq \mu \qty(X)$.
+By the definition of inner measure, this is precisely $\mu^* \qty(A) + \mu_* \qty(A^c) \leq \mu \qty(X)$.
 
 Next, we prove the reverse inequality, $\mu^* \qty(A) + \mu_* \qty(A^c) \geq \mu \qty(X)$.
 Let $C$ be any measurable set such that $A \subseteq C$. 
@@ -43,6 +43,6 @@ $$
   \mu \qty(X) \leq \inf \qty{\mu \qty(C) \colon C \in \mathcal{A}, \; A \subseteq C} + \mu_* \qty(A^c)
 $$
 
-By the definition of outer measure, this is, $\mu \qty(X) \leq \mu^* \qty(A) + \mu_* \qty(A^c)$. 
+By the definition of outer measure, this is precisely $\mu \qty(X) \leq \mu^* \qty(A) + \mu_* \qty(A^c)$. 
 
 Since the inequality holds in both directions, we conclude that $\mu^* \qty(A) + \mu_* \qty(A^c) = \mu \qty(X)$. 
