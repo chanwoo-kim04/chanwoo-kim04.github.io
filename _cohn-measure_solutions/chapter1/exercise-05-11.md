@@ -4,7 +4,7 @@ date: 2025-10-11
 ---
 $\require{physics}$
 (a) Let $\mathcal{A}_C = \qty{A \cap C \colon A \in \mathcal{A}}$. 
-Since $X \in \mathcal{A}$, the set $X \cap C = C \in \mathcal{A}$. 
+Since $X \in \mathcal{A}$, the set $X \cap C = C$ is in $\mathcal{A}_C$. 
 Let $B \in \mathcal{A}_C$. 
 Then $B = A \cap C$ for some $A \in \mathcal{A}$. 
 The complement of $B$ in $C$ is $C-B = C \cap A^c$. 
@@ -25,16 +25,16 @@ Since measure is nonnegative, $\mu \qty(K) = 0$.
 
 Now, suppose $A_1$, $A_2 \in \mathcal{A}$ satisfy $A_1 \cap C = A_2 \cap C$. 
 We must show $\mu \qty(A_1 \cap C_1) = \mu \qty(A_2 \cap C_1)$. 
-Consier the symmetric difference:
+Consider the symmetric difference:
 
 $$
-  D = \qty(A_1 \cap C_1) \Delta \qty(A_2 \cap C_1) = \qty(A_1 \Delta A_2) \cap C
+  D = \qty(A_1 \cap C_1) \Delta \qty(A_2 \cap C_1) = \qty(A_1 \Delta A_2) \cap C_1
 $$
 
 From $A_1 \cap C = A_2 \cap C$, we deduce that $A_1 \Delta A_2 \subseteq C^c$. 
 Thus, $D \subseteq C^c \cap C_1 = C_1 - C$. 
 Since $D$ is a measurable subset of $C_1 - C$, we have $\mu \qty(D) = 0$. 
-Because $\mu$ is finite, this implies $\mu \qty(A_1 \cap C_1) = \mu \qty(A_2 \cap C_2)$. 
+Because $\mu$ is finite, this implies $\mu \qty(A_1 \cap C_1) = \mu \qty(A_2 \cap C_1)$. 
 Therefore, the function $\mu_C \qty(A \cap C) = \mu \qty(A \cap C_1)$ is well-defined. 
 
 (c) Let $B \in \mathcal{A}_C$, so $B = A \cap C$ for some $A \in \mathcal{A}$. 
@@ -64,7 +64,7 @@ Combining the inequalities, we conclude $\mu_C \qty(B) = \mu^* \qty(B)$, which a
 We already have $\mu\_C \qty(\varnothing) = \mu \qty(\varnothing \cap C_1) = 0$. 
 Let $\qty{B_n}$ be a sequence of disjoint sets in $\mathcal{A}\_C$. 
 For each $n$, let $B_n = A_n \cap C$ for some $A_n \in \mathcal{A}$. 
-By replacing $A_n$ with $A_n - \bigcup_{k < n}A_k$, we can assme that the sets $A_n$ are also disjoint while still having $B_n = A_n \cap C$. 
+By replacing $A_n$ with $A_n - \bigcup_{k < n}A_k$, we can assume that the sets $A_n$ are also disjoint while still having $B_n = A_n \cap C$. 
 Let $A = \bigcup_n A_n$. 
 Then $\bigcup_n B_n = A \cap C$. We have:
 
