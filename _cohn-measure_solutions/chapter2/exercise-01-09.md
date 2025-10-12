@@ -38,7 +38,12 @@ By *Proposition 2.1.8*, there exists an increasing sequence $\qty{s_n}$ of nonne
 For each $s_n$, we have found $\mathcal{A}$-measurable simple functions $f_{1, n}$ and $f_{2, n}$ such that $s_n = f_{1, n} \chi_C + f_{2, n} \chi_{C^c}$. 
 We define $f_1 = \limsup_n f_{1, n}$ and $f_2 = \limsup_n f_{2, n}$. 
 By *Proposition 2.1.5*, both $f_1$ and $f_2$ are $\mathcal{A}$-measurable. 
-For any $x \in C$, we have $s_n \qty(x) = f_{1, n} \qty(x)$, so $f \qty(x) = \lim_n s_n \qty(x) = \limsup_n f_{1, n} \qty(x) = f_1 \qty(x)$. 
+For any $x \in C$, we have $s_n \qty(x) = f_{1, n} \qty(x)$, so 
+
+$$
+  f \qty(x) = \lim_n s_n \qty(x) = \limsup_n f_{1, n} \qty(x) = f_1 \qty(x)
+$$
+
 Similarly, for any $x \in C^c$, we have $f \qty(x) = f_2 \qty(x)$. 
 Thus, $f = f_1 \chi_C + f_2 \chi_{C^c}$. 
 
