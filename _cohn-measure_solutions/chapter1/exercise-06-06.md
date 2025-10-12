@@ -44,7 +44,7 @@ To prove that $m \qty(\mathcal{A})$ is a $\sigma$-algebra, we first show it is a
     Thus, $B \in \mathcal{D}$. 
     An identical argument holds for decreasing sequences, so $\mathcal{D}$ is a monotone class. 
 2. Closure under Finite Unions:
-    For any fixed set $E \in \mathcal{A}$, define $\mathcal{D}_E = \qty{F \in m \qty(\mathcal{A}) \colonE \cup F \in m \qty(\mathcal{A})}$.
+    For any fixed set $E \in \mathcal{A}$, define $\mathcal{D}_E = \qty{F \in m \qty(\mathcal{A}) \colon E \cup F \in m \qty(\mathcal{A})}$.
     Since $\mathcal{A}$ is an algebra, $\mathcal{A} \subseteq \mathcal{D}_E$.
     One can verify that $\mathcal{D}_E$ is a monotone class, which implies $m \qty(\mathcal{A}) \subseteq \mathcal{D}_E$.
     This means $E \cup F \in m \qty(\mathcal{A})$ for any $E \in \mathcal{A}$ and $F \in m \qty(\mathcal{A})$.
