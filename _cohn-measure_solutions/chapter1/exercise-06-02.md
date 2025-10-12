@@ -3,7 +3,7 @@ title: "Exercise 1.6.2"
 date: 2025-10-12
 ---
 $\require{physics}$
-Let $\mathcal{C}$ be the collection of rectangles of the form given in *Proposition 1.1.5(c)*. 
+(a) Let $\mathcal{C}$ be the collection of rectangles of the form given in *Proposition 1.1.5(c)*. 
 A set $R$ is in $\mathcal{C}$ if it is the empty set or if it is an open rectangle of the form $R = \prod_{i=1}^d \qty(a_i, b_i)$ for some $a_i$, $b_i \in \mathbb{R}$ with $a_i < b_i$. 
 
 Let $R_1$ and $R_2$ be two arbitrary sets in $\mathcal{C}$. 
