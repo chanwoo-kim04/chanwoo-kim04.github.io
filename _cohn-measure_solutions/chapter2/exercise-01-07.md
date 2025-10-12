@@ -6,7 +6,7 @@ $\require{physics}$
 Let $f \colon \qty[0, 1] \to \qty[0, 1]$ be the Cantor function. 
 We define its extension $F \colon \mathbb{R} \to \mathbb{R}$ by setting $F \qty(x) = 0$ for $x < 0$, $F \qty(x) = f \qty(x)$ for $x \in \qty[0, 1]$, and $F \qty(x) = 1$ for $x > 1$. 
 The function $F$ is continuous, non-decreasing, and satisfies the condition of *Proposition 1.3.10*. 
-This proposition guarantees the existence of a unique finite Borel measure $\mu$ on $\qty(\mathbb{R}, \mathcal{B} \qty(\mathbb{R}))$ such that $\mu \qty(\left(-\infty, x \right] \right) = F \qty(x)$ for all $x \in \mathbb{R}$. 
+This proposition guarantees the existence of a unique finite Borel measure $\mu$ on $\qty(\mathbb{R}, \mathcal{B} \qty(\mathbb{R}))$ such that $\mu \qty(\left(-\infty, x \right]) = F \qty(x)$ for all $x \in \mathbb{R}$. 
 The total measure is:
 
 $$
