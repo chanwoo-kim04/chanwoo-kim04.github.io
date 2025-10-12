@@ -9,6 +9,7 @@ We can express this set $C$ as the intersection of three distinct sets:
 1. The set $A_1 = \qty{x \in X \colon \liminf_n f_n \qty(x) = \limsup_n f_n \qty(x)}$, where the limit exists.
 2. The set $A_2 = \qty{x \in X \colon \liminf_n f_n \qty(x) > -\infty}$, which excludes points where the limit is $-\infty$.
 3. The set $A_3 = \qty{x \in X \colon \limsup_n f_n \qty(x) < \infty}$, which excludes points where the limit is $\infty$.
+
 Thus, we have $C = A_1 \cap A_2 \cap A_3$.
 The proof reduces to showing that each of these three sets is measurable, as the intersection of measurable sets is measurable.
 
