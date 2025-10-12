@@ -14,7 +14,7 @@ Following the hint, we define a collection of sets $S \qty(\mathcal{V}) = \qty{A
 
 We first prove that $S \qty(\mathcal{V})$ is a d-system. 
 1. $\mathbb{R} \in S \qty(\mathcal{V})$: The constant function $\chi_{\mathbb{R}} = 1$ is continuous, so it is in $\mathcal{V}$ by property (ii).
-2. Closure under proper differences: If $A$, $B$ \in S \qty(\mathcal{V})$ with $B \subseteq A$, then $\chi_A$ and $\chi_B$ are in $\mathcal{V}$. Since $\mathcal{V}$ is a vector space, the function $\chi_{A-B} = \chi_A - \chi_B$ is also in $\mathcal{V}$. Thus, $A-B \in S \qty(\mathcal{V})$.
+2. Closure under proper differences: If $A$, $B \in S \qty(\mathcal{V})$ with $B \subseteq A$, then $\chi_A$ and $\chi_B$ are in $\mathcal{V}$. Since $\mathcal{V}$ is a vector space, the function $\chi_{A-B} = \chi_A - \chi_B$ is also in $\mathcal{V}$. Thus, $A-B \in S \qty(\mathcal{V})$.
 3. Closure under increasing unions: If $\qty{A_n}$ is an increasing sequence of sets in $S \qty(\mathcal{V})$, then $\qty{\chi_{A_n}}$ is an increasing sequence of nonnegative functions in $\mathcal{V}$. Their pointwise limit is $\chi_{\bigcup_n A_n}$, which is real-valued. By property (iii), $\chi_{\bigcup_n A_n} \in \mathcal{V}$, so $\bigcup_n A_n \in S \qty(\mathcal{V})$.
 
 Next, we show that $S \qty(\mathcal{V})$ contains a generating $\pi$-system for $\mathcal{B} \qty(\mathbb{R})$. 
