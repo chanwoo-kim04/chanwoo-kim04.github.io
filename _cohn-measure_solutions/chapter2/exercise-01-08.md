@@ -3,7 +3,6 @@ title: "Exercise 2.1.8"
 date: 2025-10-12
 ---
 $\require{physics}$
-
 Let $R_g$ be the range of the function $g$, and let $S$ be the set of points in the Cantor set $K$ that are not right-hand endpoints of any open interval removed during the construction of $K$. 
 We will prove that $R_g = S$ by showing inclusion in both directions. 
 
