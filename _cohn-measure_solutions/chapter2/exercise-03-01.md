@@ -19,12 +19,12 @@ By *Proposition 2.3.6*, we have:
 
 $$
 \begin{aligned}
-  \int \abs{f \vee g} \dd \mu &\leq \int \qty(\abs{f} + \abs{g}) \dd \mu = \int \abs{f} \dd \mu + \int \abs{g} \dd \mu \\
-  \int \abs{f \wedge g} \dd \mu &\leq \int \qty(\abs{f} + \abs{g}) \dd \mu = \int \abs{f} \dd \mu + \int \abs{g} \dd \mu 
+  \int \abs{f \vee g} d \mu &\leq \int \qty(\abs{f} + \abs{g}) d \mu = \int \abs{f} d \mu + \int \abs{g} d \mu \\
+  \int \abs{f \wedge g} d \mu &\leq \int \qty(\abs{f} + \abs{g}) d \mu = \int \abs{f} d \mu + \int \abs{g} d \mu 
 \end{aligned}
 $$
 
-Since $f$ and $g$ are given to be in $\mathcal{L}^1$, the integrals $\int \abs{f} \dd \mu$ and $\int \abs{g} \dd \mu$ are finite. 
-Their sum is therefore also finite, which proves that $\int \abs{f \vee g} \dd \mu < \infty$ and $\int \abs{f \wedge g} \dd \mu < \infty$. 
+Since $f$ and $g$ are given to be in $\mathcal{L}^1$, the integrals $\int \abs{f} d \mu$ and $\int \abs{g} d \mu$ are finite. 
+Their sum is therefore also finite, which proves that $\int \abs{f \vee g} d \mu < \infty$ and $\int \abs{f \wedge g} d \mu < \infty$. 
 
 Because $f \vee g$ and $f \wedge g$ are both measurable and the integrals of their absolute values are finite, we conclude that they belong to $\mathcal{L}^1 \qty(X, \mathcal{A}, \mu, \mathbb{R})$. 
