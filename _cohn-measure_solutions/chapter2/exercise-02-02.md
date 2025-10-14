@@ -10,7 +10,7 @@ The set $\mathbb{R} - \mathcal{X}$ is a Borel set that contains $D$.
 The measure of this set is:
 
 $$
-\mu \qty(\mathbb{R} - \mathcal{X}) &= \sum_n \delta_{x_n} \qty(\mathbb{R} - \mathcal{X}) = 0
+\mu \qty(\mathbb{R} - \mathcal{X}) = \sum_n \delta_{x_n} \qty(\mathbb{R} - \mathcal{X}) = 0
 $$
 
 Since $D$ is a subset of a measurable set of measure zero, $D$ is a $\mu$-negligible set by definition. 
