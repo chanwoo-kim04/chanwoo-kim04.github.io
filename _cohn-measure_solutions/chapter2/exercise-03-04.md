@@ -2,6 +2,7 @@
 title: "Exercise 2.3.4"
 date: 2025-10-16
 ---
+$\require{physics}$
 Let $f$ and $g$ be integrable $\qty[-\infty, \infty]$-valued functions on the measure space $\qty(X, \mathcal{A}, \mu)$, and let $h$ be an $\mathcal{A}$-measurable function such that $h \qty(x) = f\qty(x) + g \qty(x)$ for $\mu$-almost every $x \in X$. 
 *Corollary 2.3.15* states that there exist real-valued integrable functions, $f_0$ and $g_0$ in $\mathcal{L}^1 \qty(X, \mathcal{A}, \mu, \mathbb{R})$, such that $f = f_0$ almost everywhere and $g = g_0$ almost everywhere. 
 The set where $h$ differs from the sum $f_0 + g_0$ is contained in the union of the null sets where $h \neq f + g$, $f \neq f_0$, or $g \neq g_0$. 
