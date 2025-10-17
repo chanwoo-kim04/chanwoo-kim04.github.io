@@ -34,7 +34,7 @@ $$
 $$
 
 Let $G_n \qty(x)$ denote the integrand. 
-For a fixed $x$, the expression $\frac{e^{\qty(t_0 + s_n)x} - e^{t_0 x}}{s_n}$ is the difference quotient for the function $t \mapsto e^{tx}$, whose limit as $s \to 0$ is the partial derivative $xe^{t_0 x}$. 
+For a fixed $x$, the expression $\frac{e^{\qty(t_0 + s_n)x} - e^{t_0 x}}{s_n}$ is the difference quotient for the function $t \mapsto e^{tx}$, whose limit as $s_n \to 0$ is the partial derivative $xe^{t_0 x}$. 
 Thus, the sequence of functions $\qty{G_n \qty(x)}$ converges pointwise almost everywhere to $xe^{t_0 x} f \qty(x)$. 
 
 To apply the Dominated Convergence Theorem, we must find an integrable function that dominates $\abs{G_n \qty(x)}$ for all $n$. 
