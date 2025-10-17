@@ -40,7 +40,7 @@ Thus, we get:
 $$
 \begin{aligned}
   \int \qty(F+G) d\mu &= \int F^{+} d\mu + \int G d\mu - \int F^{-} d\mu \\
-  &= \int F \dmu + \int G d\mu
+  &= \int F d\mu + \int G d\mu
 \end{aligned}
 $$
 
@@ -50,7 +50,7 @@ An identical argument applies to $f = g + f_1$, yielding $\int f d\mu = \int f_1
 Substituting these into the result from the Monotone Convergence Theorem gives:
 
 $$
-  \lim_n \qty(\int f_n d\mu - \int f_1 \dmu) = \int f d\mu - \int f_1 d\mu
+  \lim_n \qty(\int f_n d\mu - \int f_1 d\mu) = \int f d\mu - \int f_1 d\mu
 $$
 
 As $\int f_1 d\mu$ is a finite constant, adding the finite quantity to both sides yields the desired conclusion, $\lim_n \int f_n d\mu = \int f d\mu$. 
