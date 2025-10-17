@@ -33,7 +33,7 @@ Similarly, the integral of $f$ exists.
 Applying this identity to our conclusion for the sequence $\qty{g_n}$, we have:
 
 $$
-  -\int f \dmu = \lim_n \qty(-\int f_n d\mu)
+  -\int f d\mu = \lim_n \qty(-\int f_n d\mu)
 $$
 
 Multiplying by $-1$ on both sides gives the desired result: $\int f d\mu = \lim_n \int f_n d\mu$. 
