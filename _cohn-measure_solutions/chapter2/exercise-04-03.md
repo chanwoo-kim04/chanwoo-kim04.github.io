@@ -13,7 +13,7 @@ For $g_1 = -f_1$, we have $\abs{g_1} = \abs{f_1}$.
 Since $f_1$ is given to be integrable, we know that $\int \abs{f_1} d\mu$ is finite. 
 Therefore, $\int \abs{g_1} d\mu = \int \abs{f_1} d\mu < \infty$, which confirms that $g_1$ is integrable. 
 
-The sequence $\qty{g_n$} now satisfies all the hypotheses of *Exercise 2.4.2*. 
+The sequence $\qty{g_n}$ now satisfies all the hypotheses of *Exercise 2.4.2*. 
 Consequently, we can conclude that $\int g d\mu = \lim_n \int g_n d\mu$. 
 To translate this result back to the original sequence $\qty{f_n}$, we must establish the identity $\int \qty(-h) d\mu = -\int h d\mu$ for any function $h$ whose integral exists. 
 This identity follows directly from the definition of the integral. 
