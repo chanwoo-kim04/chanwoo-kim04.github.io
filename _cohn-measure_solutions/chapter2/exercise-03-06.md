@@ -46,7 +46,7 @@ which completes the proof of part (a).
 
 (b) Since $\qty{f_n}$ is a nondecreasing sequence of nonnegative functions and $f_n \leq f$ for all $n$, the monotonicity of the integral implies that the sequence of real numbers $\qty{\int f_n d\mu}$ is nondecreasing and bounded above by $\int f d\mu$. 
 Consequently, the limit exists and satisfies $\lim_n \int f_n d\mu \leq \int f d\mu$. 
-To prove the reverse inequality, we show that $\int g d\mu \leq \lim_n \int f_n d\mu$ for any arbitrary simple function $g \in \mathscr{S}_+$ such that $g \leq f$. 
+To prove the reverse inequality, we show that $\int g d\mu \leq \lim_n \int f_n d\mu$ for any arbitrary simple function $g \in \mathscr{S}\_{+}$ such that $g \leq f$. 
 Let such a function $g$ and an arbitrary $\varepsilon \in \qty(0, 1)$ be given. 
 By the result of part (a), there exists a sequence $\qty{g_n}$ in $\mathscr{S}_+$ such that $g_n \leq f_n$ for each $n$ and $\lim_n \int g_n d \mu = \qty(1-\varepsilon) \int g d\mu$. 
 From the inequality $g_n \leq f_n$, the monotonicity of the integral implies $\int g_n d\mu \leq \int f_n d\mu$. 
