@@ -43,7 +43,7 @@ We may assume that our sequence $\qty{s_n}$ was chosen such that $t_0 + s_n \in 
 By the Mean Value Theorem applied to the function $u \mapsto e^{ux}$ for a fixed $x$, for each $s_n$ there exists a number $c_n \qty(x)$ between $t_0$ and $t_0 + s_n$ such that:
 
 $$
-  \frac{h \qty(t_0 + s_n) - h \qty(t_0)}{s_n} = xe^{c_n \qty(x)x}
+  \frac{e^{\qty(t_0 + s_n)x} - e^{t_0 x}}{s_n} = xe^{c_n \qty(x)x}
 $$
 
 Note that $c_n \qty(x) \in \qty[t_1, t_2]$. 
